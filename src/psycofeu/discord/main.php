@@ -16,6 +16,8 @@ class main extends PluginBase
 
     protected function onEnable(): void
     {
+        $this->saveResource("config.yml");
+        $this->saveDefaultConfig();
         $this->getLogger()->notice("discordCMD enable | by Psycofeu");
         $this->getServer()->getCommandMap()->register("", new discord_commande());
     }
