@@ -1,0 +1,8 @@
+name: discord_command
+author: Psycofeu
+api: 5.0.0
+version: 1.0.0
+description: Discord = https://discord.gg/vanillaMCBE
+
+website: "https://github.com/Psycofeu"
+main: psycofeu\discord\main
