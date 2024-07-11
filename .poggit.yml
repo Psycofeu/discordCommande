@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Psycofeu/discordCommande
+build-by-default: true
+branches:
+- main
+projects:
+  discordCommande:
+    path: ""
+...
